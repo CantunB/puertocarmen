@@ -8,8 +8,13 @@
             <!-- Left Menu Start -->
             <ul class="metismenu list-unstyled" id="side-menu">
                 <li class="menu-title" key="t-menu">@lang('translation.Menu')</li>
-
                 <li>
+                    <a href="index" class="waves-effect">
+                        <i class="bx bx-home"></i>
+                        <span key="t-calendar">Index</span>
+                    </a>
+                </li>
+                {{--  <li>
                     <a href="javascript: void(0);" class="waves-effect">
                         <i class="bx bx-home-circle"></i><span class="badge rounded-pill bg-info float-end">04</span>
                         <span key="t-dashboards">@lang('translation.Dashboards')</span>
@@ -20,9 +25,9 @@
                         <li><a href="dashboard-crypto" key="t-crypto">@lang('translation.Crypto')</a></li>
                         <li><a href="dashboard-blog" key="t-blog">@lang('translation.Blog')</a></li>
                     </ul>
-                </li>
+                </li>  --}}
 
-                <li>
+                {{--  <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="bx bx-layout"></i>
                         <span key="t-layouts">@lang('translation.Layouts')</span>
@@ -68,10 +73,65 @@
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </li>  --}}
 
                 <li class="menu-title" key="t-apps">@lang('translation.Apps')</li>
+                {{--  <li>
+                    <a href="calendar" class="waves-effect">
+                        <i class="bx bx-calendar"></i>
+                        <span key="t-calendar">Calendario</span>
+                    </a>
+                </li>  --}}
+                <li>
+                    <a href="calendar" class="waves-effect">
+                        <i class="bx bx-calendar-event"></i>
+                        <span key="t-calendar">Reservaciones / Eventos</span>
+                    </a>
+                </li>
+                {{--  <li>
+                    <a href="reservaciones" class="waves-effect">
+                        <i class="bx bx-book-content"></i>
+                        <span key="t-calendar">Reservaciones</span>
+                    </a>
+                </li>  --}}
+                <li>
+                    <a href="cortes" class="waves-effect">
+                        <i class="bx bxs-wallet"></i>
+                        <span key="t-calendar">Cortes Caja</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="compras" class="waves-effect">
+                        <i class="bx bxs-cart-alt"></i>
+                        <span key="t-calendar">Compras</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="bitacoras" class="waves-effect">
+                        <i class="bx bxs-file"></i>
+                        <span key="t-calendar">Bitacoras</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="proveedores" class="waves-effect">
+                        <i class="bx bxs-truck"></i>
+                        <span key="t-calendar">Proveedores</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="productos" class="waves-effect">
+                        <i class="bx bxs-wine"></i>
+                        <span key="t-calendar">Productos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="facturas" class="waves-effect">
+                        <i class="bx bx-detail"></i>
+                        <span key="t-calendar">Facturas</span>
+                    </a>
+                </li>
 
+{{--
                 <li>
                     <a href="calendar" class="waves-effect">
                         <i class="bx bx-calendar"></i>
@@ -218,9 +278,9 @@
                         <li><a href="blog-grid" key="t-blog-grid">@lang('translation.Blog_Grid')</a></li>
                         <li><a href="blog-details" key="t-blog-details">@lang('translation.Blog_Details')</a></li>
                     </ul>
-                </li>
+                </li>  --}}
 
-                <li class="menu-title" key="t-pages">@lang('translation.Pages')</li>
+                {{--  <li class="menu-title" key="t-pages">@lang('translation.Pages')</li>
 
                 <li>
                     <a href="javascript: void(0);" class="waves-effect">
@@ -270,8 +330,8 @@
                         <li><a href="pages-404" key="t-error-404">@lang('translation.Error_404')</a></li>
                         <li><a href="pages-500" key="t-error-500">@lang('translation.Error_500')</a></li>
                     </ul>
-                </li>
-
+                </li>  --}}
+{{--
                 <li class="menu-title" key="t-components">@lang('translation.Components')</li>
 
                 <li>
@@ -402,7 +462,7 @@
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </li>  --}}
 
             </ul>
         </div>

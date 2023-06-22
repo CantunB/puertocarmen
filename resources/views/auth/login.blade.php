@@ -25,8 +25,9 @@
                             <div class="w-100">
                                 <div class="bg-overlay"></div>
                                 <div class="d-flex h-100 flex-column">
-
-                                    <div class="p-4 mt-auto">
+                                    <img src="{{ URL::asset('/assets/images/PC.png') }}" alt="" height="500"
+                                    class="auth-logo-dark">
+                                    {{--  <div class="p-4 mt-auto">
                                         <div class="row justify-content-center">
                                             <div class="col-lg-7">
                                                 <div class="text-center">
@@ -74,7 +75,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>  --}}
                                 </div>
                             </div>
                         </div>
@@ -86,19 +87,19 @@
                             <div class="w-100">
 
                                 <div class="d-flex flex-column h-100">
-                                    <div class="mb-4 mb-md-5">
+                                    <div >
                                         <a href="index" class="d-block auth-logo">
-                                            <img src="{{ URL::asset('/assets/images/logo-dark.png') }}" alt="" height="18"
+                                            <img src="{{ URL::asset('/assets/images/PC.png') }}" alt="" height="250"
                                                 class="auth-logo-dark">
-                                            <img src="{{ URL::asset('/assets/images/logo-light.png') }}" alt="" height="18"
+                                            <img src="{{ URL::asset('/assets/images/PC.png') }}" alt="" height="200"
                                                 class="auth-logo-light">
                                         </a>
                                     </div>
                                     <div class="my-auto">
 
                                         <div>
-                                            <h5 class="text-primary">Welcome Back !</h5>
-                                            <p class="text-muted">Sign in to continue to Skote.</p>
+                                            <h5 class="text-primary">Bienvenido!</h5>
+                                            {{--  <p class="text-muted">Sign in to continue to Skote.</p>  --}}
                                         </div>
 
                                         <div class="mt-4">
@@ -121,7 +122,7 @@
                                                     <div class="float-end">
                                                         @if (Route::has('password.request'))
                                                             <a href="{{ route('password.request') }}"
-                                                                class="text-muted">Forgot password?</a>
+                                                                class="text-muted">Olvidaste tu contraseña?</a>
                                                         @endif
                                                     </div>
                                                     <label class="form-label">Password</label>
@@ -145,7 +146,7 @@
                                                     <input class="form-check-input" type="checkbox" id="remember"
                                                         {{ old('remember') ? 'checked' : '' }}>
                                                     <label class="form-check-label" for="remember">
-                                                        Remember me
+                                                        Recordarme
                                                     </label>
                                                 </div>
 
@@ -154,46 +155,21 @@
                                                         type="submit">Log
                                                         In</button>
                                                 </div>
-
-                                                <div class="mt-4 text-center">
-                                                    <h5 class="font-size-14 mb-3">Sign in with</h5>
-
-                                                    <ul class="list-inline">
-                                                        <li class="list-inline-item">
-                                                            <a href="#"
-                                                                class="social-list-item bg-primary text-white border-primary">
-                                                                <i class="mdi mdi-facebook"></i>
-                                                            </a>
-                                                        </li>
-                                                        <li class="list-inline-item">
-                                                            <a href="#"
-                                                                class="social-list-item bg-info text-white border-info">
-                                                                <i class="mdi mdi-twitter"></i>
-                                                            </a>
-                                                        </li>
-                                                        <li class="list-inline-item">
-                                                            <a href="#"
-                                                                class="social-list-item bg-danger text-white border-danger">
-                                                                <i class="mdi mdi-google"></i>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
                                             </form>
                                             <div class="mt-5 text-center">
-                                                <p>Don't have an account ? <a href="{{ url('register') }}"
-                                                        class="fw-medium text-primary"> Signup now </a> </p>
+                                                <p>No tienes una cuenta ? <a href=""
+                                                        class="fw-medium text-primary"> Registrate </a> </p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="mt-4 mt-md-5 text-center">
+                                    {{--  <div class="mt-4 mt-md-5 text-center">
                                         <p class="mb-0">© <script>
                                                 document.write(new Date().getFullYear())
 
                                             </script> Skote. Crafted with <i class="mdi mdi-heart text-danger"></i> by
                                             Themesbrand</p>
-                                    </div>
+                                    </div>  --}}
                                 </div>
 
 

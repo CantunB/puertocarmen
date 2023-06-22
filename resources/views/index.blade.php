@@ -16,8 +16,8 @@
                     <div class="row">
                         <div class="col-7">
                             <div class="text-primary p-3">
-                                <h5 class="text-primary">Welcome Back !</h5>
-                                <p>Skote Dashboard</p>
+                                <h5 class="text-primary">Bienvenido nuevamente !</h5>
+                                <p>Puerto Carmen Dashboard</p>
                             </div>
                         </div>
                         <div class="col-5 align-self-end">
@@ -32,7 +32,7 @@
                                 <img src="{{ isset(Auth::user()->avatar) ? asset(Auth::user()->avatar) : asset('/assets/images/users/avatar-1.jpg') }}" alt="" class="img-thumbnail rounded-circle">
                             </div>
                             <h5 class="font-size-15 text-truncate">{{ Str::ucfirst(Auth::user()->name) }}</h5>
-                            <p class="text-muted mb-0 text-truncate">UI/UX Designer</p>
+                            <p class="text-muted mb-0 text-truncate">Desarrollador</p>
                         </div>
 
                         <div class="col-sm-8">
@@ -41,15 +41,15 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <h5 class="font-size-15">125</h5>
-                                        <p class="text-muted mb-0">Projects</p>
+                                        <p class="text-muted mb-0">Ordenes</p>
                                     </div>
                                     <div class="col-6">
                                         <h5 class="font-size-15">$1245</h5>
-                                        <p class="text-muted mb-0">Revenue</p>
+                                        <p class="text-muted mb-0">Ganancias</p>
                                     </div>
                                 </div>
                                 <div class="mt-4">
-                                    <a href="" class="btn btn-primary waves-effect waves-light btn-sm">View Profile <i
+                                    <a href="" class="btn btn-primary waves-effect waves-light btn-sm">Ver perfil <i
                                             class="mdi mdi-arrow-right ms-1"></i></a>
                                 </div>
                             </div>
@@ -59,16 +59,16 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title mb-4">Monthly Earning</h4>
+                    <h4 class="card-title mb-4">Ganancias Mensuales</h4>
                     <div class="row">
                         <div class="col-sm-6">
-                            <p class="text-muted">This month</p>
+                            <p class="text-muted">Este mes</p>
                             <h3>$34,252</h3>
                             <p class="text-muted"><span class="text-success me-2"> 12% <i class="mdi mdi-arrow-up"></i>
-                                </span> From previous period</p>
+                                </span> Desde periodo anterior</p>
 
                             <div class="mt-4">
-                                <a href="" class="btn btn-primary waves-effect waves-light btn-sm">View More <i
+                                <a href="" class="btn btn-primary waves-effect waves-light btn-sm">Detalles <i
                                         class="mdi mdi-arrow-right ms-1"></i></a>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="text-muted mb-0">We craft digital, graphic and dimensional thinking.</p>
+                    {{--  <p class="text-muted mb-0">We craft digital, graphic and dimensional thinking.</p>  --}}
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@
                         <div class="card-body">
                             <div class="media">
                                 <div class="media-body">
-                                    <p class="text-muted fw-medium">Orders</p>
+                                    <p class="text-muted fw-medium">Ordenes de compras</p>
                                     <h4 class="mb-0">1,235</h4>
                                 </div>
 
@@ -107,7 +107,7 @@
                         <div class="card-body">
                             <div class="media">
                                 <div class="media-body">
-                                    <p class="text-muted fw-medium">Revenue</p>
+                                    <p class="text-muted fw-medium">Ganancias</p>
                                     <h4 class="mb-0">$35, 723</h4>
                                 </div>
 
@@ -125,7 +125,7 @@
                         <div class="card-body">
                             <div class="media">
                                 <div class="media-body">
-                                    <p class="text-muted fw-medium">Average Price</p>
+                                    <p class="text-muted fw-medium">Costo promedio</p>
                                     <h4 class="mb-0">$16.2</h4>
                                 </div>
 
@@ -144,17 +144,17 @@
             <div class="card">
                 <div class="card-body">
                     <div class="d-sm-flex flex-wrap">
-                        <h4 class="card-title mb-4">Email Sent</h4>
+                        <h4 class="card-title mb-4">Ventas</h4>
                         <div class="ms-auto">
                             <ul class="nav nav-pills">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Week</a>
+                                    <a class="nav-link" href="#">Semanal</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Month</a>
+                                    <a class="nav-link" href="#">Mensual</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#">Year</a>
+                                    <a class="nav-link active" href="#">Anual</a>
                                 </li>
                             </ul>
                         </div>
@@ -171,7 +171,7 @@
         <div class="col-xl-4">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title mb-4">Social Source</h4>
+                    <h4 class="card-title mb-4">Redes Sociales</h4>
                     <div class="text-center">
                         <div class="avatar-sm mx-auto mb-4">
                             <span class="avatar-title rounded-circle bg-primary bg-soft font-size-24">
@@ -179,11 +179,11 @@
                             </span>
                         </div>
                         <p class="font-16 text-muted mb-2"></p>
-                        <h5><a href="#" class="text-dark">Facebook - <span class="text-muted font-16">125 sales</span> </a>
+                        <h5><a href="#" class="text-dark">Facebook - <span class="text-muted font-16">125 interacciones</span> </a>
                         </h5>
-                        <p class="text-muted">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero
-                            venenatis faucibus tincidunt.</p>
-                        <a href="#" class="text-primary font-16">Learn more <i class="mdi mdi-chevron-right"></i></a>
+                        {{--  <p class="text-muted">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero
+                            venenatis faucibus tincidunt.</p>  --}}
+                        {{--  <a href="#" class="text-primary font-16"> more <i class="mdi mdi-chevron-right"></i></a>  --}}
                     </div>
                     <div class="row mt-4">
                         <div class="col-4">
@@ -194,7 +194,7 @@
                                     </span>
                                 </div>
                                 <h5 class="font-size-15">Facebook</h5>
-                                <p class="text-muted mb-0">125 sales</p>
+                                <p class="text-muted mb-0">125 interacciones</p>
                             </div>
                         </div>
                         <div class="col-4">
@@ -205,7 +205,7 @@
                                     </span>
                                 </div>
                                 <h5 class="font-size-15">Twitter</h5>
-                                <p class="text-muted mb-0">112 sales</p>
+                                <p class="text-muted mb-0">112 interacciones</p>
                             </div>
                         </div>
                         <div class="col-4">
@@ -216,7 +216,7 @@
                                     </span>
                                 </div>
                                 <h5 class="font-size-15">Instagram</h5>
-                                <p class="text-muted mb-0">104 sales</p>
+                                <p class="text-muted mb-0">104 interacciones</p>
                             </div>
                         </div>
                     </div>
@@ -224,10 +224,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-xl-4">
+        {{--  <div class="col-xl-4">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title mb-5">Activity</h4>
+                    <h4 class="card-title mb-5">Actividad</h4>
                     <ul class="verti-timeline list-unstyled">
                         <li class="event-list">
                             <div class="event-timeline-dot">
@@ -303,19 +303,19 @@
                             More <i class="mdi mdi-arrow-right ms-1"></i></a></div>
                 </div>
             </div>
-        </div>
+        </div>  --}}
 
         <div class="col-xl-4">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title mb-4">Top Cities Selling Product</h4>
+                    <h4 class="card-title mb-4">Restaurantes</h4>
 
                     <div class="text-center">
                         <div class="mb-4">
                             <i class="bx bx-map-pin text-primary display-4"></i>
                         </div>
                         <h3>1,456</h3>
-                        <p>San Francisco</p>
+                        <p>Ciudad del Carmen</p>
                     </div>
 
                     <div class="table-responsive mt-4">
@@ -323,7 +323,7 @@
                             <tbody>
                                 <tr>
                                     <td style="width: 30%">
-                                        <p class="mb-0">San Francisco</p>
+                                        <p class="mb-0">Puerto Carmen</p>
                                     </td>
                                     <td style="width: 25%">
                                         <h5 class="mb-0">1,456</h5>
@@ -336,7 +336,7 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr>
+                                {{--  <tr>
                                     <td>
                                         <p class="mb-0">Los Angeles</p>
                                     </td>
@@ -365,7 +365,7 @@
                                             </div>
                                         </div>
                                     </td>
-                                </tr>
+                                </tr>  --}}
                             </tbody>
                         </table>
                     </div>
@@ -379,7 +379,7 @@
         <div class="col-lg-12">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title mb-4">Latest Transaction</h4>
+                    <h4 class="card-title mb-4">Ultimas cuentas</h4>
                     <div class="table-responsive">
                         <table class="table align-middle table-nowrap mb-0">
                             <thead class="table-light">
@@ -390,13 +390,13 @@
                                             <label class="form-check-label" for="transactionCheck01"></label>
                                         </div>
                                     </th>
-                                    <th class="align-middle">Order ID</th>
-                                    <th class="align-middle">Billing Name</th>
-                                    <th class="align-middle">Date</th>
+                                    <th class="align-middle">Folio ID</th>
+                                    <th class="align-middle">Mesero</th>
+                                    <th class="align-middle">Fecha</th>
                                     <th class="align-middle">Total</th>
-                                    <th class="align-middle">Payment Status</th>
-                                    <th class="align-middle">Payment Method</th>
-                                    <th class="align-middle">View Details</th>
+                                    <th class="align-middle">Estatus</th>
+                                    <th class="align-middle">Metodo pago</th>
+                                    <th class="align-middle">Detalles</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -673,47 +673,6 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end modal -->
-
-    <!-- subscribeModal -->
-    <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header border-bottom-0">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="text-center mb-4">
-                        <div class="avatar-md mx-auto mb-4">
-                            <div class="avatar-title bg-light rounded-circle text-primary h1">
-                                <i class="mdi mdi-email-open"></i>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center">
-                            <div class="col-xl-10">
-                                <h4 class="text-primary">Subscribe !</h4>
-                                <p class="text-muted font-size-14 mb-4">Subscribe our newletter and get notification to stay
-                                    update.</p>
-
-                                <div class="input-group bg-light rounded">
-                                    <input type="email" class="form-control bg-transparent border-0"
-                                        placeholder="Enter Email address" aria-label="Recipient's username"
-                                        aria-describedby="button-addon2">
-
-                                    <button class="btn btn-primary" type="button" id="button-addon2">
-                                        <i class="bx bxs-paper-plane"></i>
-                                    </button>
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
